@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <TextView
+        android:id="@+id/txtvwMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:onClick="miClick"
+
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:text="Por XML" />
+
+    <Button
+        android:id="@+id/btnInterfaz"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:text="Por Interfaz" />
+
+    <Button
+        android:id="@+id/btnClaseAnon"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_weight="1"
+        android:text="Por Clase Anónima" />
+
+    <Button
+        android:id="@+id/btnClase"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:text="Por Clase" />
+
+</LinearLayout>
